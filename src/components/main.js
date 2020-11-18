@@ -3,6 +3,10 @@ import AboutUs from './aboutus';
 import OurStory from './ourstory';
 import MissionVision from './missionvision';
 import Values from './values';
+import Strategy from './strategy';
+import Businessplan from './businessplan';
+import Ourteam from './ourteam';
+import Amp from './amp';
 
 function Main(){
     return(
@@ -12,6 +16,10 @@ function Main(){
             <OurStory />
             <MissionVision />
             <Values />
+            <Strategy />
+            <Businessplan/>
+            <Ourteam/>
+            <Amp/>
         </div>
     )
 }
