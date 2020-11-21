@@ -49,7 +49,7 @@ h5 {
 }
 
 #phones {
-    background: url("../src/graphics/phones.svg");
+    background: url("../src/graphics/phones.png");
     height: 300px;
     background-repeat: no-repeat;
     background-size: contain;
