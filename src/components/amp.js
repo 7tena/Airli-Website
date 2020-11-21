@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Amp() {
     return (
-        <div>
+        <div className="container">
             <h3>Asthma Management Platform</h3>
             <p>
                 Providing real time contextualized location based Air Quality

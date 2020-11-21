@@ -4,7 +4,7 @@ import { members } from "./members";
 
 export default function Ourteam() {
     return (
-        <div>
+        <div className="container">
             <section id='ourteam'>
                 <h3>Our Team</h3>
                 {members.map((member) => {

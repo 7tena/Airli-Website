@@ -8,11 +8,12 @@ import Businessplan from "./businessplan";
 import Ourteam from "./ourteam";
 import Amp from "./amp";
 import DownloadApp from "./DownloadApp";
+import Navigation from './navigation';
 
 function Main() {
     return (
         <div>
-            <h2>Airli</h2>
+            <Navigation />
             <AboutUs />
             <OurStory />
             <MissionVision />

@@ -2,7 +2,7 @@ import React from 'react';
 
 function OurStory(){
     return(
-        <div>
+        <div className="container">
             <h3>Our Story</h3>
             <p>
                 Airli, a subsidiary of Orbit Australia born on 1994 in Australia from a need to know the quality of the air we breathe every

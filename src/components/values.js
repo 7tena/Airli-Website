@@ -2,7 +2,7 @@ import React from 'react';
 
 function Values(){
     return(
-        <div>
+        <div className="container">
             <h3>Values</h3>
             <p>
                 We define technology for the people

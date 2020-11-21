@@ -3,7 +3,7 @@ import React from 'react';
 function AboutUs()
 {
     return(
-        <div>
+        <div className="container">
             <h3>About Us</h3>
             <p>
                 Jacob decided to establish a real time air checks to make the invisible to visible and started the company Airli as part of

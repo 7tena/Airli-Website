@@ -2,7 +2,7 @@ import React from 'react';
 
 function MissionVision(){
     return(
-        <div>
+        <div className="container">
             <h3>Mission</h3>
             <p>
                 Focus to deliver Innovative and Value Driven Business Solutions to our customers that address their unique business

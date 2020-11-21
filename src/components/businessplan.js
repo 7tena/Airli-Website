@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Businessplan() {
     return (
-        <div>
+        <div className="container">
             <h3>Business Plan</h3>
             <p>
             The primary business for airli is those suffering a Chronic Respiratory Condition, like asthma data state level. Currently,

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Strategy() {
     return (
-        <div>
+        <div className="container">
             <h3>Strategy</h3>
             <p>Our strategy for success is in depth knowledge of the focused Industry solutions, our optimal delivery model and our
 unique value proposition enabling our customers to stay abreast of the latest innovations and best practices to succeed
