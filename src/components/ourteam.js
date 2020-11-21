@@ -5,7 +5,7 @@ import { members } from "./members";
 export default function Ourteam() {
     return (
         <div>
-            <h3>Our team</h3>
+            <h3>Our Team</h3>
             <section>
                 {members.map((member) => {
                     return <Member key={member.id} {...member} />;
