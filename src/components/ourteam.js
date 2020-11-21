@@ -1,28 +1,16 @@
-import React from 'react'
+import React from "react";
+import Member from "./Member";
+import { members } from "./members";
 
 export default function Ourteam() {
     return (
         <div>
             <h3>Our team</h3>
-            <ol>
-            <li>Jacob Malana</li>
-            <li>Victor Skladnev</li>
-            <li>John Eskrine</li>
-            <li>
-            William C Horton
-            </li>
-            <li>
-            Dr San Murugeshan
-            </li>
-            <li>
-            Sue Cyriac
-            </li>
-            <li>
-            Jo Joseph
-
-            </li>
-            </ol>
-            
+            <section>
+                {members.map((member) => {
+                    return <Member key={member.id} {...member} />;
+                })}
+            </section>
         </div>
-    )
+    );
 }
