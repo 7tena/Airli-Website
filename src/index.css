@@ -57,7 +57,39 @@ h5 {
     text-align: center;
 }
 
+.flex-container {
+    display: flex;
+}
+
+#applink {
+    width: 50%;
+    text-align: center;
+    color: #858585;
+    display: flex;
+    flex-direction: column;
+}
+
+#applinktext {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+
+#applinkdescription {
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 100%;
+}
+
+#badge img {
+    height: calc(35px + 1.5vw);
+    margin-bottom: calc(0.5vw + 5px);
+}
+
 #phones {
+    width: 50%;
+    margin-left: 5rem;
+    margin-right: 5rem;
     background: url("../src/graphics/phones-with-airli.png");
     height: 300px;
     background-repeat: no-repeat;

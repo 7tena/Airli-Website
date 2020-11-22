@@ -5,19 +5,38 @@ import appstore from "../graphics/Download-on-the-App-Store.svg";
 const DownloadApp = () => {
     return (
         <div className='container'>
-            <h3>Download App</h3>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. A vulputate elit fringilla consectetur quis lorem
-            augue lobortis. Suscipit.
-            <a href='https://play.google.com/' alt='Get it on Google Play'>
-                <img alt='Get it on Google Play' src={playstore} />
-            </a>
-            <a
-                href='https://www.apple.com/app-store/'
-                alt='Download on the App Store'
-            >
-                <img alt='Download on the App Store' src={appstore} />
-            </a>
-            <aside id='phones'></aside>
+            <h3>Download App</h3>
+            <section className='flex-container'>
+                <article id='applink'>
+                    <h4 id='applinktext'>Try Airli</h4>
+                    <p id='applinkdescription'>
+                        Download Airli for real time contextualised location
+                        based air quality health data on iOS and Android.
+                    </p>
+                    <div id='badge'>
+                        <a
+                            href='https://play.google.com/'
+                            alt='Get it on Google Play'
+                            target='_blank'
+                        >
+                            <img alt='Get it on Google Play' src={playstore} />
+                        </a>
+                    </div>
+                    <div id='badge'>
+                        <a
+                            href='https://apps.apple.com/'
+                            alt='Download on the App Store'
+                            target='_blank'
+                        >
+                            <img
+                                alt='Download on the App Store'
+                                src={appstore}
+                            />
+                        </a>
+                    </div>
+                </article>
+                <aside id='phones'></aside>
+            </section>
         </div>
     );
 };
