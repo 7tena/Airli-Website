@@ -18,6 +18,7 @@ const DownloadApp = () => {
                             href='https://play.google.com/'
                             alt='Get it on Google Play'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <img alt='Get it on Google Play' src={playstore} />
                         </a>
@@ -27,6 +28,7 @@ const DownloadApp = () => {
                             href='https://apps.apple.com/'
                             alt='Download on the App Store'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <img
                                 alt='Download on the App Store'
@@ -35,7 +37,9 @@ const DownloadApp = () => {
                         </a>
                     </div>
                 </article>
-                <aside id='phones'></aside>
+                <article id='appimg'>
+                    <figure id='phones'></figure>
+                </article>
             </section>
         </div>
     );
