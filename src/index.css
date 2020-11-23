@@ -5,10 +5,10 @@ code {
         monospace;
 }
 
-body {
+* {
     box-sizing: border-box;
-    margin: 0;
     font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 #navbar {
@@ -22,11 +22,29 @@ body {
     text-transform: uppercase;
 }
 
-h3 {
+.div-up {
+    background: url(./graphics/div-up.png);
+}
+
+.div-down {
+    background: url(./graphics/div-down.png);
+}
+
+.div-up,
+.div-down {
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    margin: auto;
+    height: 2.5vw;
+}
+
+body h3 {
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
-    font-size: 72px;
+    font-size: calc(25px + 2vw);
     color: #00acdc;
 }
 
@@ -34,6 +52,14 @@ h4 {
     font-family: "Josefin Sans", sans-serif;
     color: #fdb813;
     text-align: center;
+}
+
+#pollen {
+    width: 50%;
+}
+
+#health {
+    width: 50%;
 }
 
 #photo {
@@ -51,10 +77,10 @@ h4#membername {
     margin-bottom: 0;
 }
 
-h5 {
+h5#memberdesc {
     color: #757575;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     text-align: center;
 }

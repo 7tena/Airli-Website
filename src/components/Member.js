@@ -5,7 +5,7 @@ export default function Member({ id, img, name, description }) {
         <article id={id}>
             <img src={img} alt={name} id='photo' />
             <h4 id='membername'>{name}</h4>
-            <h5>{description}</h5>
+            <h5 id='memberdesc'>{description}</h5>
         </article>
     );
 }

@@ -1,8 +1,10 @@
 import React from "react";
+import pollen from "../graphics/pollen.png";
+import health from "../graphics/health.png";
 
 export default function Amp() {
     return (
-        <div className="container">
+        <div className='container'>
             <h3>Asthma Management Platform</h3>
             <p>
                 Providing real time contextualized location based Air Quality
@@ -20,17 +22,25 @@ export default function Amp() {
                 Airli makes a real difference to the lives of people with
                 Allergy and Asthma
             </p>
-            <h4>Pollen Alerts</h4>
-            <p>
-                Alert by user when there are critical pollen level in the Air.
-                Predicts levels based on weather, season and live satellite
-                location data.
-            </p>
-            <h4>Live health data</h4>
-            <p>
-                Provides location based outdoor Air quality health data for
-                BREATH EASY
-            </p>
+            <section className='flex-container'>
+                <article id='pollen'>
+                    <img alt='Pollen Alerts' src={pollen} />
+                    <h4>Pollen Alerts</h4>
+                    <p>
+                        Alert by user when there are critical pollen level in
+                        the Air. Predicts levels based on weather, season and
+                        live satellite location data.
+                    </p>
+                </article>
+                <article id='health'>
+                    <img alt='Live Health Data' src={health} />
+                    <h4>Live Health Data</h4>
+                    <p>
+                        Provides location based outdoor Air quality health data
+                        for BREATH EASY
+                    </p>
+                </article>
+            </section>
         </div>
     );
 }
