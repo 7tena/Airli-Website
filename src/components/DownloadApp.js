@@ -8,11 +8,13 @@ const DownloadApp = () => {
             <h3>Download App</h3>
             <section className='flex-container'>
                 <article id='applink'>
+                    <div id='gap2'></div>
                     <h4 id='applinktext'>Try Airli</h4>
                     <p id='applinkdescription'>
-                        Download Airli for real time contextualised location
-                        based air quality health data on iOS and Android.
+                        For real time contextualised location based air quality
+                        health data on Android and iOS.
                     </p>
+                    <div id='gap1'></div>
                     <div id='badge'>
                         <a
                             href='https://play.google.com/'
@@ -23,6 +25,7 @@ const DownloadApp = () => {
                             <img alt='Get it on Google Play' src={playstore} />
                         </a>
                     </div>
+                    <div id='gap2'></div>
                     <div id='badge'>
                         <a
                             href='https://apps.apple.com/'
@@ -36,6 +39,7 @@ const DownloadApp = () => {
                             />
                         </a>
                     </div>
+                    <div id='gap2'></div>
                 </article>
                 <article id='appimg'>
                     <figure id='phones'></figure>

@@ -75,29 +75,57 @@ h5 {
 #applinktext {
     font-family: "Poppins", sans-serif;
     font-style: italic;
+    font-weight: 300;
+    margin: 0;
 }
 
 #applinkdescription {
     font-weight: 300;
-    padding-left: 2rem;
-    padding-right: 2rem;
     font-size: 100%;
-    margin-bottom: calc(0.5vw + 5px);
+    margin-bottom: 0;
+}
+
+#gap1 {
+    height: calc(0.5vw + 2px);
+    max-height: 8px;
+}
+
+#gap2 {
+    height: calc(0.5vw + 5px);
+    max-height: 11px;
 }
 
 #badge img {
     height: calc(35px + 1.5vw);
-    margin-bottom: calc(0.5vw + 5px);
+    max-height: 53px;
 }
 
 #appimg {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 #phones {
-    margin-left: calc(1rem + 2vw);
     background: url("../src/graphics/phones-with-airli.png");
-    height: 30vw;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 400px) {
+    #phones {
+        background-position: center;
+    }
+
+    #badge img {
+        height: 10vw;
+    }
 }
