@@ -43,35 +43,53 @@ export default function Amp() {
                 </article>
 
             </section> */}
-            <div className="container-fluid">
-                <div class="row">
-                    <div className="col-sm-4">
-                        <article >
-                            <img alt='Pollen Alerts' src={pollen} style={{width:200}}/>
-                            <h4 id="sid">Pollen Alerts</h4>
+            <div className='container-fluid'>
+                <div class='row'>
+                    <div className='col-sm-4'>
+                        <article>
+                            <img
+                                alt='Pollen Alerts'
+                                src={pollen}
+                                draggable='false'
+                                style={{ width: 200 }}
+                            />
+                            <h4 id='sid'>Pollen Alerts</h4>
                             <p>
-                            Alert by user when there are critical pollen level in
-                        the Air. Predicts levels based on weather, season and
-                        live satellite location data.
+                                Alert by user when there are critical pollen
+                                level in the Air. Predicts levels based on
+                                weather, season and live satellite location
+                                data.
                             </p>
                         </article>
                     </div>
-                    <div className="col-sm-4">
-                        <article >
-                            <img alt='Pollen Alerts' src={inhaler} style={{width:200}} />
-                            <h4 id="sid">Asthma management</h4>
+                    <div className='col-sm-4'>
+                        <article>
+                            <img
+                                alt='Pollen Alerts'
+                                src={inhaler}
+                                draggable='false'
+                                style={{ width: 200 }}
+                            />
+                            <h4 id='sid'>Asthma management</h4>
                             <p>
-                            Logs symptoms, tracks medicine usage, provides live doctor chat and digital Asthma community forum
+                                Logs symptoms, tracks medicine usage, provides
+                                live doctor chat and digital Asthma community
+                                forum
                             </p>
                         </article>
                     </div>
-                    <div className="col-sm-4">
-                        <article >
-                            <img alt='Pollen Alerts' src={health} style={{width:200,height:200}}/>
-                            <h4 id="sid">Live Health Data</h4>
+                    <div className='col-sm-4'>
+                        <article>
+                            <img
+                                alt='Pollen Alerts'
+                                src={health}
+                                draggable='false'
+                                style={{ width: 200, height: 200 }}
+                            />
+                            <h4 id='sid'>Live Health Data</h4>
                             <p>
-                            Provides location based outdoor Air quality health data
-                        for BREATH EASY
+                                Provides location based outdoor Air quality
+                                health data for BREATH EASY
                             </p>
                         </article>
                     </div>

@@ -9,7 +9,7 @@ import Ourteam from "./ourteam";
 import Amp from "./amp";
 import DownloadApp from "./DownloadApp";
 import Navigation from "./navigation";
-import Footer from "./footer"
+import Footer from "./footer";
 function Main() {
     return (
         <div>
@@ -32,7 +32,7 @@ function Main() {
             <div className='container div-up'></div>
             <DownloadApp />
             <div className='container div-down'></div>
-            <Footer/>
+            <Footer />
         </div>
     );
 }

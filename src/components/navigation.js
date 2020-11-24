@@ -16,8 +16,8 @@ function Navigation() {
 
     return (
         <Navbar bg='light' expand='md' id='navbar'>
-            <NavbarBrand href='/' className='mr-auto'>
-                <img src={logo} alt='Airli' width='100px' />
+            <NavbarBrand href='/' className='mr-auto' draggable='false'>
+                <img src={logo} alt='Airli' width='100px' draggable='false' />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} className='mr-2'>
                 <svg
