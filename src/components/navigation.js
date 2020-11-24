@@ -8,10 +8,13 @@ import {
     Collapse,
     NavbarToggler,
 } from "reactstrap";
-import logo from "../graphics/airli-logo-white.png";
+
+import whiteLogo from "../graphics/airli-logo-white.png";
+import blackLogo from "../graphics/airli-logo-black.png";
 
 function Navigation() {
     const [collapsed, setCollapsed] = useState(true);
+    const [expand, setExpand] = useState('');
     const [toggleMenu, setMenu] = useState(false);
     const [scroll, setScroll] = useState(false);
 
@@ -35,31 +38,44 @@ function Navigation() {
             </path>
         </svg>
 
+    const brand = scroll ?
+        <NavbarBrand href='/' className='mr-auto' draggable='false'>
+            <img src={whiteLogo} alt='Airli' width='100px' draggable='false' />
+        </NavbarBrand>
+        :
+        <div></div>
+
     const toggle = () => {
         setCollapsed((prevState) => !prevState);
+        if(collapsed)
+        {
+            if(!scroll)
+                setExpand('nav-expand');
+            else
+                setExpand('nav-active-expand');
+        }
+        else
+            setExpand('')
         setMenu((prevState => !prevState));
     }
+
     return (
-        <Navbar expand='md' className={scroll ? 'nav-active' : 'nav'} fixed="top">
-            <NavbarBrand href='/' className='mr-auto' draggable='false'>
-                <img src={logo} alt='Airli' width='100px' draggable='false' />
-            </NavbarBrand>
+        <Navbar expand='md' className={scroll ? `nav-active ${expand}` : `nav ${expand}`} fixed="top">
+            {brand}
             <NavbarToggler onClick={toggle} className='mr-2'>
                 {icon}
             </NavbarToggler>
             <Collapse isOpen={!collapsed} navbar>
-                <Nav className='ml-auto' navbar>
+                <Nav className={scroll?'ml-auto':'mx-auto'} navbar>
                     <NavItem>
                         <NavLink href='/' id='orbitaustralia'>OrbitAustralia</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href='/aboutus'>About Us</NavLink>
                     </NavItem>
-
                     <NavItem>
                         <NavLink href='/other'>Other</NavLink>
                     </NavItem>
-                   
                 </Nav>
             </Collapse>
         </Navbar>
