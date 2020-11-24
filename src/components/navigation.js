@@ -8,7 +8,6 @@ import {
     Collapse,
     NavbarToggler,
 } from "reactstrap";
-import {Navlink} from 'react-router-dom';
 import logo from "../graphics/airli-logo-white.png";
 
 function Navigation() {
@@ -51,14 +50,14 @@ function Navigation() {
             <Collapse isOpen={!collapsed} navbar>
                 <Nav className='ml-auto' navbar>
                     <NavItem>
-                        <NavLink id='obitaustralia'>OrbitAustralia</NavLink>
+                        <NavLink href='/' id='orbitaustralia'>OrbitAustralia</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to='/aboutus'>About Us</NavLink>
+                        <NavLink href='/aboutus'>About Us</NavLink>
                     </NavItem>
 
                     <NavItem>
-                        <NavLink to="/other">Other</NavLink>
+                        <NavLink href='/other'>Other</NavLink>
                     </NavItem>
                    
                 </Nav>

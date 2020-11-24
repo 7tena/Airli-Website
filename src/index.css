@@ -215,6 +215,7 @@ h5#memberdesc {
 }
 .nav-link:hover {
     color: black;
+    cursor: pointer;
 }
 
 .navbar-toggler {
