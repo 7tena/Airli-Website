@@ -1,8 +1,16 @@
 import React from 'react'
-
+import OurStory from "./ourstory";
+import MissionVision from "./missionvision";
+import Values from "./values";
+import Strategy from "./strategy";
+import Navigation from "./navigation";
+import Footer from "./footer";
 export default function Businessplan() {
     return (
+        <div>
+             <Navigation />
         <div className="container">
+
             <h3>Business Plan</h3>
             <p>
             The primary business for airli is those suffering a Chronic Respiratory Condition, like asthma data state level. Currently,
@@ -33,6 +41,20 @@ will have a significant impact on your ability to execute this plan and to make 
 development, your actualized service and social media engagement. Post Phase 1, it is recommended that airli secure a
 sizeable customer database to explore potential B2B revenue streams as part of a 3year plan.
             </p>
+            <div className='container div-down'></div>
+            <OurStory /> 
+            <div className='container div-up'></div>
+            <MissionVision />
+            <div className='container div-down'></div>
+            <Values />
+            <div className='container div-up'></div>
+            <Strategy />
+            <div className='container div-down'></div>
+            <Footer />
+
+
+
+        </div>
         </div>
     )
 }

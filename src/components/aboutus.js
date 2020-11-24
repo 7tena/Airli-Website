@@ -1,8 +1,12 @@
 import React from 'react';
+import Navigation from "./navigation";
+import Footer from "./footer";
 
 function AboutUs()
 {
     return(
+        <div>
+            <Navigation />
         <div className="container">
             <h3>About Us</h3>
             <p>
@@ -29,6 +33,8 @@ function AboutUs()
                 clientele, many of which are leaders in industry domains including agriculture, health system services, asthma care
                 management etc.
             </p>
+        </div>
+        <Footer />
         </div>
     )
 }

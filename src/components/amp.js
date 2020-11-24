@@ -2,12 +2,15 @@ import React from "react";
 import pollen from "../graphics/pollen.png";
 import health from "../graphics/health.png";
 import inhaler from "../graphics/inhaler.png";
+import amp from "../graphics/rect5872.png";
 
 export default function Amp() {
     return (
         <div className='container'>
-            <h3>Asthma Management Platform</h3>
-            <p>
+            <div class="row">
+                <div class="col-sm-8 ">
+                <h3 style={{textAlign:"right"}}>Asthma Management Platform</h3>
+            <p style={{textAlign:"right"}}>
                 Providing real time contextualized location based Air Quality
                 Health data every day, everywhere, and for everyone. Satellite
                 data is transmitted to servers / repositories in cloud- The data
@@ -18,6 +21,13 @@ export default function Amp() {
                 medicines usage, live doctor chat and digital asthma community
                 forum.
             </p>
+
+                </div>
+                {/* <div class="col-sm-4">
+                    <img src={amp} alt="amp"></img>
+                </div> */}
+            </div>
+           
             <h3>Services</h3>
             <p>
                 Airli makes a real difference to the lives of people with
