@@ -8,28 +8,44 @@ import {
     Collapse,
     NavbarToggler,
 } from "reactstrap";
-import logo from "../graphics/airli-logo-black.png";
+import logo from "../graphics/airli-logo-white.png";
 
 function Navigation() {
     const [collapsed, setCollapsed] = useState(true);
-    const toggle = () => setCollapsed((prevState) => !prevState);
+    const [toggleMenu, setMenu] = useState(false);
+    const [scroll, setScroll] = useState(false);
 
+    const changeBackground = () => {
+        if(window.scrollY >= 80)
+            setScroll(true);
+        else
+            setScroll(false);
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
+    const icon = !toggleMenu ?
+        <svg aria-hidden="true" focusable="false" width="20px" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="white" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+        </svg>
+        :
+        <svg aria-hidden="true" focusable="false" width="20px" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+            <path fill="white" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+            </path>
+        </svg>
+
+    const toggle = () => {
+        setCollapsed((prevState) => !prevState);
+        setMenu((prevState => !prevState));
+    }
     return (
-        <Navbar bg='light' expand='md' id='navbar'>
+        <Navbar expand='md' className={scroll ? 'nav-active' : 'nav'} fixed="top">
             <NavbarBrand href='/' className='mr-auto' draggable='false'>
                 <img src={logo} alt='Airli' width='100px' draggable='false' />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} className='mr-2'>
-                <svg
-                    width='1em'
-                    height='1em'
-                    viewBox='0 0 16 16'
-                    class='down'
-                    fill='currentColor'
-                    xmlns='http://www.w3.org/2000/svg'
-                >
-                    <path d='M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z' />
-                </svg>
+                {icon}
             </NavbarToggler>
             <Collapse isOpen={!collapsed} navbar>
                 <Nav className='ml-auto' navbar>

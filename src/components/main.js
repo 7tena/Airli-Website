@@ -6,6 +6,7 @@ import Values from "./values";
 import Strategy from "./strategy";
 import Businessplan from "./businessplan";
 import Ourteam from "./ourteam";
+import Banner from "../graphics/Child-With-Arms-in-the-Air.jpg"
 import Amp from "./amp";
 import DownloadApp from "./DownloadApp";
 import Navigation from "./navigation";
@@ -14,6 +15,7 @@ function Main() {
     return (
         <div>
             <Navigation />
+            <img src={Banner} alt="Airli" className="banner" />
             <AboutUs />
             <div className='container div-down'></div>
             <OurStory />
