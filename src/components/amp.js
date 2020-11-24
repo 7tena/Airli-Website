@@ -57,20 +57,19 @@ export default function Amp() {
                             <p>
                                 Alert by user when there are critical pollen
                                 level in the Air. Predicts levels based on
-                                weather, season and live satellite location
-                                data.
+                                weather, season and live satellite location data
                             </p>
                         </article>
                     </div>
                     <div className='col-sm-4'>
                         <article>
                             <img
-                                alt='Pollen Alerts'
+                                alt='Asthma Management'
                                 src={inhaler}
                                 draggable='false'
                                 style={{ width: 200 }}
                             />
-                            <h4 id='sid'>Asthma management</h4>
+                            <h4 id='sid'>Asthma Management</h4>
                             <p>
                                 Logs symptoms, tracks medicine usage, provides
                                 live doctor chat and digital Asthma community
@@ -81,7 +80,7 @@ export default function Amp() {
                     <div className='col-sm-4'>
                         <article>
                             <img
-                                alt='Pollen Alerts'
+                                alt='Live Health Data'
                                 src={health}
                                 draggable='false'
                                 style={{ width: 200, height: 200 }}
@@ -89,7 +88,7 @@ export default function Amp() {
                             <h4 id='sid'>Live Health Data</h4>
                             <p>
                                 Provides location based outdoor Air quality
-                                health data for BREATH EASY
+                                health data for BREATHE EASY
                             </p>
                         </article>
                     </div>
