@@ -6,30 +6,32 @@ import amp from "../graphics/amp.svg";
 
 export default function Amp() {
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div class='row'>
-                <div class='col-sm-8 '>
-                    <h3 style={{ textAlign: "right" }}>
-                        Asthma Management Platform
+                <div class='col-sm-7 '>
+                    <h3 style={{ textAlign: "right",marginTop:"30%" }}>
+                        Asthma <br></br>Management <br/>Platform
                     </h3>
                     <p style={{ textAlign: "right" }}>
-                        Providing real time contextualized location based Air
-                        Quality Health Data everyday, everywhere, and for
-                        everyone. Satellite data is transmitted to
-                        servers/repositories in cloud — the data includes
-                        Vegetation Index, Weather, Wind, Rainfall, Climate
-                        patterns, Pollution, CO<sub>2</sub> emissions, Celestial
-                        body positions, transits and forces, and many more
-                        variables, which are more significantly predictive than
-                        others. Log symptoms, track medicines usage, live doctor
+                        Providing real time contextualized location based Air<br/>
+                        Quality Health Data everyday, everywhere, and for<br/>
+                        everyone.<br/> Satellite data is transmitted to
+                        servers/repositories<br/> in cloud — the data includes
+                        Vegetation Index, Weather,<br/> Wind, Rainfall, Climate
+                        patterns, Pollution, CO<sub>2</sub> emissions,<br/> Celestial
+                        body positions, transits and forces, and many<br/> more
+                        variables, which are more significantly predictive <br/>than
+                        others.<br/> Log symptoms, track medicines usage, live doctor
                         chat and digital asthma community forum.
                     </p>
                 </div>
-                {/* <div class="col-sm-4">
-                    <img src={amp} alt="amp"></img>
-                </div> */}
+                <div class="col-sm-5">
+                    <img src={amp} alt="amp" style={{height:"85%"}}></img>
+                </div>
             </div>
-
+            <div className='container div-down'></div>
+            
+            <div className='container-fluid'>
             <h3>Services</h3>
             <p>
                 Airli makes a real difference to the lives of people with
@@ -55,7 +57,7 @@ export default function Amp() {
                 </article>
 
             </section> */}
-            <div className='container-fluid'>
+            
                 <div class='row'>
                     <div className='col-sm-4'>
                         <article>

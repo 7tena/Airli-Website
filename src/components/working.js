@@ -10,14 +10,14 @@ export default function Working() {
                         <img
                             src={video}
                             alt='video'
-                            style={{ width: "100%" }}
+                            style={{ width: "100%",padding:"5%",marginTop:"10%" }}
                         />
                     </div>
                     <div class='col-sm-6' id='applink'>
-                        <h3 style={{ textAlign: "left" }}>How does it work?</h3>
+                        <h3 style={{ textAlign: "left" ,marginTop:"2%"}}>How does it<br/> work?</h3>
                         <p style={{ textAlign: "left" }}>
-                            Airli makes a real difference to the lives of people
-                            with allergy and Asthma. Watch how Airli works.
+                            Airli makes a real difference to the lives of<br/> people
+                            with allergy and Asthma. Watch <br/>how Airli works.
                         </p>
                     </div>
                 </div>
