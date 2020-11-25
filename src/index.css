@@ -53,6 +53,24 @@ a aside {
     height: calc(15px + 1vw);
 }
 
+.amp {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: calc(5px + 1vw);
+}
+
+.amp h3,
+.amp p {
+    text-align: right;
+}
+
+.amp img {
+    width: calc(100%);
+    max-width: 250px;
+}
+
 body h3 {
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
