@@ -270,19 +270,12 @@ h5#memberdesc {
         align-items: start;
         align-content: start;
     }
-
-    .nav-expand .nav-link {
-        color: black;
-    }
-    .nav-active-expand {
-        background: black;
-        color: white;
-        height: 100vh;
-        align-items: start;
-        align-content: start;
-    }
 }
 
 .container {
     padding-top: 10px;
+}
+
+.container h3{
+    margin-top: 10%;
 }

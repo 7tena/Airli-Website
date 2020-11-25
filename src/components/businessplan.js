@@ -9,7 +9,7 @@ export default function Businessplan() {
         <div>
             
             <div className='container'>
-                <h3 style={{marginTop:"10%"}}>Business Plan</h3>
+                <h3>Business Plan</h3>
                 <p>
                     The primary business for Airli is those suffering a Chronic
                     Respiratory Condition, like asthma data state level.

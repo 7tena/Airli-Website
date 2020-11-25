@@ -9,7 +9,6 @@ import {
     NavbarToggler,
 } from "reactstrap";
 
-import whiteLogo from "../graphics/airli-logo-white.png";
 import blackLogo from "../graphics/airli-logo-black.png";
 
 function Navigation() {
@@ -38,7 +37,7 @@ function Navigation() {
             viewBox='0 0 448 512'
         >
             <path
-                fill='white'
+                fill='black'
                 d='M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z'
             ></path>
         </svg>
@@ -55,7 +54,7 @@ function Navigation() {
             viewBox='0 0 352 512'
         >
             <path
-                fill='white'
+                fill='black'
                 d='M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z'
             ></path>
         </svg>
@@ -72,8 +71,7 @@ function Navigation() {
     const toggle = () => {
         setCollapsed((prevState) => !prevState);
         if (collapsed) {
-            if (!scroll) setExpand("nav-expand");
-            else setExpand("nav-active-expand");
+            setExpand('nav-expand')
         } else setExpand("");
         setMenu((prevState) => !prevState);
     };
