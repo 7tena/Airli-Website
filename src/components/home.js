@@ -8,7 +8,12 @@ import DownloadApp from "./DownloadApp";
 export default function Home() {
     return (
         <div>
-            <img src={Banner} alt='Airli' className='banner' />
+            <img
+                src={Banner}
+                alt='Airli'
+                className='banner'
+                draggable='false'
+            />
             <div className='container div-down'></div>
             <Amp />
             <div className='container div-up'></div>

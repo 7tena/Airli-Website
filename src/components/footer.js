@@ -6,7 +6,7 @@ export default function Footer() {
             <footer class='container'>
                 <p id='footnote'>
                     * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus bibendum bibendum elit velit.{" "}
+                    Vivamus bibendum bibendum elit velit.
                 </p>
                 <p id='footnote'>
                     ** Lorem ipsum dolor sit amet, consectetur adipiscing elit.

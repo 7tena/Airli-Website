@@ -50,14 +50,14 @@ a aside {
     background-position: center top;
     width: 100%;
     margin: auto;
-    height: 2.5vw;
+    height: calc(15px + 1vw);
 }
 
 body h3 {
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
-    font-size: calc(25px + 2vw);
+    font-size: calc(33px + 1.3vw);
     color: #00acdc;
 }
 
@@ -137,6 +137,8 @@ h5#memberdesc {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: calc(0.5vw + 2px);
+    padding-bottom: calc(0.5vw + 2px);
 }
 
 #applinktext {
@@ -191,7 +193,7 @@ h5#memberdesc {
     z-index: -1;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     #phones {
         background-position: center;
     }
@@ -218,7 +220,7 @@ h5#memberdesc {
 }
 
 .nav-active {
-    opacity: 92%;
+    opacity: 90%;
     background: white;
     color: black;
     box-shadow: 0px calc(0.06vw + 1px) calc(0.4vw + 4px) rgba(0, 0, 0, 0.25);
@@ -238,7 +240,7 @@ h5#memberdesc {
 }
 
 .navbar-nav {
-    padding: 20px;
+    padding: 0px;
 }
 
 @media (max-width: 960px) {
@@ -264,5 +266,5 @@ h5#memberdesc {
 }
 
 .container {
-    padding-top: 20px;
+    padding-top: 10px;
 }
