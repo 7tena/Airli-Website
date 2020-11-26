@@ -3,22 +3,28 @@ import video from "../graphics/youtube.png";
 
 export default function Working() {
     return (
-        <div>
-            <div class='container'>
-                <div class='row'>
-                    <div class='col-sm-6'>
-                        <img
-                            src={video}
-                            alt='video'
-                            style={{ width: "100%",padding:"5%",marginTop:"10%" }}
-                        />
-                    </div>
-                    <div class='col-sm-6' id='applink'>
-                        <h3 style={{ textAlign: "left" ,marginTop:"2%"}}>How does it<br/> work?</h3>
-                        <p style={{ textAlign: "left" }}>
-                            Airli makes a real difference to the lives of<br/> people
-                            with allergy and Asthma. Watch <br/>how Airli works.
-                        </p>
+        <div class='container'>
+            <div class='row flex-container work'>
+                <div class='col-11 col-sm-10 col-md-5' id='applink'>
+                    <h3 id='work-title'>
+                        How Does It
+                        <br /> Work?
+                    </h3>
+                    <p id='work-text'>
+                        Airli makes a real difference to the lives of people
+                        with allergy and Asthma. Watch how Airli works.
+                    </p>
+                </div>
+                <div class='col-11 col-sm-10 col-md-7'>
+                    <div class='video'>
+                        <iframe
+                            width='560'
+                            height='315'
+                            src='https://www.youtube.com/embed/NpEaa2P7qZI'
+                            frameborder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                            allowfullscreen='allowfullscreen'
+                        ></iframe>
                     </div>
                 </div>
             </div>
