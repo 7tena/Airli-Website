@@ -12,6 +12,10 @@ code {
     user-select: none;
 }
 
+div {
+    overflow-x: hidden;
+}
+
 /* .amp{
     align-items: flex-end;
 } */
@@ -127,7 +131,7 @@ div.no-padding-top {
         order: 2;
     }
 
-    div.container h3 {
+    #applink h3 {
         margin-top: 0%;
     }
 }
