@@ -1,14 +1,13 @@
 import React from 'react';
-import Navigation from "./navigation";
-import Footer from "./footer";
+
 
 function AboutUs()
 {
     return(
         <div>
-            <Navigation />
+        
         <div className="container">
-            <h3>About Us</h3>
+            <h3 style={{marginTop:"10%"}}>About Us</h3>
             <p>
                 Jacob decided to establish a real time air checks to make the invisible to visible and started the company Airli as part of
                 Orbit Australia. Today, all of our environmental engineers understand the connection between our health and th
@@ -34,7 +33,7 @@ function AboutUs()
                 management etc.
             </p>
         </div>
-        <Footer />
+        
         </div>
     )
 }

@@ -19,28 +19,8 @@ export default function Ourteam() {
         </div>
       </div>
 
-      {/* <div class="row">
-        <div class="col-lg-3 mb-4">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <img
-                src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg"
-                alt="wrapkit"
-                class="img-fluid rounded-circle"
-              />
-              <h5 class="mt-4 font-weight-medium mb-0">Jacob Malana</h5>
-              <h6 class="subtitle mb-3"></h6>
-            </div>
-            <div class="col-md-12 text-center">
-            <div class="pt-2"> 
-
-                        
-            </div>
-          </div> 
-          </div>
-        </div>
-
-        */}
+      
+        
 
       <div class="row">
         <div class="col-md-4">
@@ -62,7 +42,9 @@ export default function Ourteam() {
             class="img-fluid rounded-circle"
           />
           <h5 class="mt-4 font-weight-medium mb-0">Victor Skladnev</h5>
-          <h6 class="subtitle mb-3">Algorithm specialist — Bio Tech Management</h6>
+          <h6 class="subtitle mb-3">
+            Algorithm specialist — Bio Tech Management
+          </h6>
         </div>
         <div class="col-md-4">
           <img
@@ -73,38 +55,49 @@ export default function Ourteam() {
           <h5 class="mt-4 font-weight-medium mb-0">John Eskrine</h5>
           <h6 class="subtitle mb-3">Marketing Channel Management</h6>
         </div>
-        </div>
+      </div>
 
       <div class="row">
-      <div class="col-md-3"><img
+        <div class="col-md-3">
+          <img
             src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg"
             alt="wrapkit"
             class="img-fluid rounded-circle"
           />
           <h5 class="mt-4 font-weight-medium mb-0">William C Horton</h5>
-          <h6 class="subtitle mb-3">Business Leader — Strategist Entrepreneurship/Innovation Commercialisation</h6></div>
-      
-        <div class="col-md-3"><img
+          <h6 class="subtitle mb-3">
+            Business Leader — Strategist Entrepreneurship/Innovation
+            Commercialisation
+          </h6>
+        </div>
+
+        <div class="col-md-3">
+          <img
             src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg"
             alt="wrapkit"
             class="img-fluid rounded-circle"
           />
           <h5 class="mt-4 font-weight-medium mb-0">Dr. San Murugeshan</h5>
-          <h6 class="subtitle mb-3">Senior Fellow US NRC NASA IT-Specialist</h6></div>
-        <div class="col-md-3"><img
+          <h6 class="subtitle mb-3">Senior Fellow US NRC NASA IT-Specialist</h6>
+        </div>
+        <div class="col-md-3">
+          <img
             src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg"
             alt="wrapkit"
             class="img-fluid rounded-circle"
           />
           <h5 class="mt-4 font-weight-medium mb-0">Sue Cyriac</h5>
-          <h6 class="subtitle mb-3">Company Executive</h6></div>
-        <div class="col-md-3"><img
+          <h6 class="subtitle mb-3">Company Executive</h6>
+        </div>
+        <div class="col-md-3">
+          <img
             src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg"
             alt="wrapkit"
             class="img-fluid rounded-circle"
           />
           <h5 class="mt-4 font-weight-medium mb-0">Jo Joseph</h5>
-          <h6 class="subtitle mb-3">Project Manager</h6></div>
+          <h6 class="subtitle mb-3">Project Manager</h6>
+        </div>
       </div>
     </div>
   );

@@ -2,38 +2,48 @@ import React from "react";
 import pollen from "../graphics/pollen.png";
 import health from "../graphics/health.png";
 import inhaler from "../graphics/inhaler.png";
-import amp from "../graphics/rect5872.png";
+import amp from "../graphics/amp.svg";
 
 export default function Amp() {
     return (
         <div className='container'>
-            <div class="row">
-                <div class="col-sm-8 ">
-                <h3 style={{textAlign:"right"}}>Asthma Management Platform</h3>
-            <p style={{textAlign:"right"}}>
-                Providing real time contextualized location based Air Quality
-                Health data every day, everywhere, and for everyone. Satellite
-                data is transmitted to servers / repositories in cloud- The data
-                includes Vegetation Index, Weather, Wind, Rainfall, Climate
-                patterns, Pollution, CO2 emissions, Celestial body positions,
-                transits and forces, and many more variables, which are more
-                significantly predictive than others. Log symptoms, track
-                medicines usage, live doctor chat and digital asthma community
-                forum.
-            </p>
-
+            <div class='row'>
+                <div class='col-8 amp'>
+                    <h3>
+                        Asthma <br></br>Management <br />
+                        Platform
+                    </h3>
+                    <p>
+                        Providing real time contextualized location based Air
+                        Quality Health Data everyday, everywhere, and for
+                        everyone. Satellite data is transmitted to
+                        servers/repositories in cloud — the data includes
+                        Vegetation Index, Weather, Wind, Rainfall, Climate
+                        patterns, Pollution, CO
+                        <sub>2</sub> emissions, Celestial body positions,
+                        transits and forces, and many more variables, which are
+                        more significantly predictive than others. Log symptoms,
+                        track medicines usage, live doctor chat and digital
+                        asthma community forum.
+                    </p>
                 </div>
-                {/* <div class="col-sm-4">
-                    <img src={amp} alt="amp"></img>
-                </div> */}
+                <div class='col-4 amp'>
+                    <img
+                        src={amp}
+                        alt='Asthma Management Platform'
+                        draggable='false'
+                    ></img>
+                </div>
             </div>
-           
-            <h3>Services</h3>
-            <p>
-                Airli makes a real difference to the lives of people with
-                Allergy and Asthma
-            </p>
-            {/* <section className='flex-container'>
+            <div className='container div-down'></div>
+
+            <div>
+                <h3>Services</h3>
+                <p>
+                    Airli makes a real difference to the lives of people with
+                    Allergy and Asthma
+                </p>
+                {/* <section className='flex-container'>
                 <article id='pollen'>
                     <img alt='Pollen Alerts' src={pollen} />
                     <h4>Pollen Alerts</h4>
@@ -53,9 +63,9 @@ export default function Amp() {
                 </article>
 
             </section> */}
-            <div className='container-fluid'>
-                <div class='row'>
-                    <div className='col-sm-4'>
+
+                <div class='row' style={{ justifyContent: "center" }}>
+                    <div className='col-12 col-sm-6 col-md-4'>
                         <article>
                             <img
                                 alt='Pollen Alerts'
@@ -65,13 +75,13 @@ export default function Amp() {
                             />
                             <h4 id='sid'>Pollen Alerts</h4>
                             <p>
-                                Alert by user when there are critical pollen
-                                level in the Air. Predicts levels based on
+                                Alerts user when there are critical pollen level
+                                in the air, and predicts levels based on
                                 weather, season and live satellite location data
                             </p>
                         </article>
                     </div>
-                    <div className='col-sm-4'>
+                    <div className='col-12 col-sm-6 col-md-4'>
                         <article>
                             <img
                                 alt='Asthma Management'
@@ -87,7 +97,7 @@ export default function Amp() {
                             </p>
                         </article>
                     </div>
-                    <div className='col-sm-4'>
+                    <div className='col-12 col-sm-6 col-md-4'>
                         <article>
                             <img
                                 alt='Live Health Data'
@@ -97,7 +107,7 @@ export default function Amp() {
                             />
                             <h4 id='sid'>Live Health Data</h4>
                             <p>
-                                Provides location based outdoor Air quality
+                                Provides location based outdoor air quality
                                 health data for BREATHE EASY
                             </p>
                         </article>
