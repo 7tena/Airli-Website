@@ -65,7 +65,7 @@ export default function Amp() {
             </section> */}
 
                 <div class='row' style={{ justifyContent: "center" }}>
-                    <div className='col-12 col-sm-6 col-md-4'>
+                    <div className='col-8 col-sm-6 col-md-4'>
                         <article>
                             <img
                                 alt='Pollen Alerts'
@@ -81,7 +81,7 @@ export default function Amp() {
                             </p>
                         </article>
                     </div>
-                    <div className='col-12 col-sm-6 col-md-4'>
+                    <div className='col-8 col-sm-6 col-md-4'>
                         <article>
                             <img
                                 alt='Asthma Management'
@@ -97,7 +97,7 @@ export default function Amp() {
                             </p>
                         </article>
                     </div>
-                    <div className='col-12 col-sm-6 col-md-4'>
+                    <div className='col-8 col-sm-6 col-md-4'>
                         <article>
                             <img
                                 alt='Live Health Data'
