@@ -10,6 +10,8 @@ code {
     font-family: "Poppins", sans-serif;
     text-align: center;
     user-select: none;
+    font-weight: 300;
+    font-size: 1.05rem;
 }
 
 div {
@@ -47,6 +49,7 @@ a aside {
 
 .div-up {
     background: url(./graphics/div-up.png);
+    margin-bottom: calc(0.5vw + 10px) !important;
 }
 
 .div-down {
@@ -57,10 +60,11 @@ a aside {
 .div-down {
     background-size: 110%;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
     width: 100%;
     margin: auto;
-    height: calc(15px + 1vw);
+    margin-bottom: calc(0vw + 3px);
+    height: calc(15px + 2vw);
 }
 
 .amp {
@@ -74,6 +78,7 @@ a aside {
 .amp h3,
 .amp p {
     text-align: right;
+    margin-bottom: 0;
 }
 
 .amp img {
@@ -121,6 +126,7 @@ div.no-padding-top {
     h3#work-title,
     p#work-text {
         text-align: left;
+        margin-bottom: 0%;
     }
 
     .video {
@@ -137,11 +143,12 @@ div.no-padding-top {
 }
 
 .work {
-    padding-bottom: calc(0.5vw + 10px);
+    margin-bottom: calc(0.85vw + 3px);
 }
 
 #work-text {
-    margin-bottom: 1%;
+    margin-bottom: 0%;
+    color: #000;
 }
 
 .video {
@@ -191,7 +198,7 @@ h5#memberdesc {
     color: #757575;
     font-style: italic;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -263,6 +270,10 @@ h5#memberdesc {
     z-index: -1;
 }
 
+.div-down.align-top {
+    background-position: top;
+}
+
 @media only screen and (max-width: 450px) {
     #phones {
         background-position: center;
@@ -277,8 +288,12 @@ h5#memberdesc {
     text-align: left;
     font-style: italic;
     font-weight: 300;
-    font-size: 12px;
+    font-size: calc(12px + 0.1vw);
     color: #757575;
+}
+
+hr {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .banner {
@@ -324,10 +339,24 @@ h5#memberdesc {
     }
 }
 
-.container {
+/* .container {
     padding-top: 10px;
-}
+} */
 
 .container h3 {
-    margin-top: 10%;
+    margin-top: 0.5vw;
+}
+
+#p-margin {
+    margin-bottom: 0.5rem;
+}
+
+#download-container {
+    position: relative;
+}
+
+#download {
+    /* setting position for Download navlink */
+    position: absolute;
+    top: -75px;
 }

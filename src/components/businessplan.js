@@ -6,8 +6,7 @@ import Strategy from "./strategy";
 
 export default function Businessplan() {
     return (
-        <div>
-            
+        <div id='other'>
             <div className='container'>
                 <h3>Business Plan</h3>
                 <p>
@@ -60,16 +59,16 @@ export default function Businessplan() {
                     secure a sizeable customer database to explore potential B2B
                     revenue streams as part of a 3 year plan.
                 </p>
-                <div className='container div-down'></div>
-                <OurStory />
-                <div className='container div-up'></div>
-                <MissionVision />
-                <div className='container div-down'></div>
-                <Values />
-                <div className='container div-up'></div>
-                <Strategy />
-                <div className='container div-down'></div>
             </div>
+            <div className='container div-down'></div>
+            <OurStory />
+            <div className='container div-up'></div>
+            <MissionVision />
+            <div className='container div-down'></div>
+            <Values />
+            <div className='container div-up'></div>
+            <Strategy />
+            <div className='container div-down'></div>
         </div>
     );
 }

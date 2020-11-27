@@ -4,7 +4,8 @@ import appstore from "../graphics/Download-on-the-App-Store.svg";
 
 const DownloadApp = () => {
     return (
-        <div className='container'>
+        <div className='container' id='download-container'>
+            <div id='download'></div>
             <h3>Download App</h3>
             <section className='flex-container'>
                 <article id='applink'>

@@ -13,7 +13,7 @@ export default function Strategy() {
             </p>
             <p>
                 Airli as prepare for their launch of their smartphone
-                application for people to ‘BREATH EASY’
+                application for people to ‘BREATHE EASY’
             </p>
 
             <p>ASTHMA CARE THROUGH MOBILE APPLICATION</p>

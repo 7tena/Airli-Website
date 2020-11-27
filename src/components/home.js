@@ -14,7 +14,7 @@ export default function Home() {
                 className='banner'
                 draggable='false'
             />
-            <div className='container div-down'></div>
+            <div className='container div-down align-top'></div>
             <Amp />
             <div className='container div-up'></div>
             <Working />
@@ -22,7 +22,7 @@ export default function Home() {
             <Ourteam />
             <div className='container div-up'></div>
             <DownloadApp />
-            <div className='container div-down'></div>
+            <div className='container div-down align-top'></div>
         </div>
     );
 }

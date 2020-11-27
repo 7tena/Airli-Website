@@ -71,7 +71,7 @@ function Navigation() {
     const toggle = () => {
         setCollapsed((prevState) => !prevState);
         if (collapsed) {
-            setExpand('nav-expand')
+            setExpand("nav-expand");
         } else setExpand("");
         setMenu((prevState) => !prevState);
     };
@@ -89,16 +89,31 @@ function Navigation() {
             <Collapse isOpen={!collapsed} navbar>
                 <Nav className={scroll ? "ml-auto" : "mx-auto"} navbar>
                     <NavItem>
-                        <NavLink href='/' id='orbitaustralia'>
+                        <NavLink
+                            href='https://www.orbitaustralia.com/'
+                            id='orbitaustralia'
+                            target='_blank'
+                            rel='noreferrer'
+                            draggable='false'
+                        >
                             <aside>Orbit</aside>
                             <span>Australia</span>
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href='/aboutus'>About Us</NavLink>
+                        <NavLink href='/#download' draggable='false'>
+                            Download
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href='/other'>Other</NavLink>
+                        <NavLink href='/aboutus' draggable='false'>
+                            About Us
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href='/other' draggable='false'>
+                            Other
+                        </NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>

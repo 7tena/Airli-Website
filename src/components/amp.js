@@ -64,7 +64,7 @@ export default function Amp() {
 
             </section> */}
 
-                <div class='row' style={{ justifyContent: "center" }}>
+                <div class='row flex-container'>
                     <div className='col-8 col-sm-6 col-md-4'>
                         <article>
                             <img
