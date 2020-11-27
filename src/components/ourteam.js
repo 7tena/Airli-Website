@@ -4,14 +4,21 @@ import { members } from "./members";
 
 export default function Ourteam() {
     return (
-        <div className='container no-padding-top'>
+        <div className='container'>
             <h3>Our Team</h3>
             <section className='ourteam'>
                 {members.map((member) => {
+                    let len = member.length;
                     return (
                         <div className='flex-container'>
                             {member.map((mem) => {
-                                return <Member key={mem.id} {...mem} />;
+                                return (
+                                    <Member
+                                        key={mem.id}
+                                        {...mem}
+                                        length={len}
+                                    />
+                                );
                             })}
                         </div>
                     );

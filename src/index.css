@@ -100,10 +100,6 @@ h4 {
     text-align: center;
 }
 
-div.no-padding-top {
-    padding-top: 0;
-}
-
 #pollen {
     width: 50%;
 }
@@ -117,10 +113,10 @@ div.no-padding-top {
     font-weight: 400;
 }
 
-.flex-container article {
+/* .flex-container article {
     flex-grow: 1;
     flex-basis: 0;
-}
+} */
 
 @media only screen and (min-width: 768px) {
     h3#work-title,
@@ -165,17 +161,9 @@ div.no-padding-top {
     height: 100%;
 }
 
-article#1,
-article#2,
-article#3 {
-    width: 33.33%;
-}
-
-article#4,
-article#5,
-article#6,
-article#7 {
-    width: 25%;
+article#1.col-8.col-sm-6.col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 #photo {
@@ -338,10 +326,6 @@ hr {
         align-content: start;
     }
 }
-
-/* .container {
-    padding-top: 10px;
-} */
 
 .container h3 {
     margin-top: 0.5vw;

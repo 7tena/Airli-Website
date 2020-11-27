@@ -43,26 +43,6 @@ export default function Amp() {
                     Airli makes a real difference to the lives of people with
                     Allergy and Asthma
                 </p>
-                {/* <section className='flex-container'>
-                <article id='pollen'>
-                    <img alt='Pollen Alerts' src={pollen} />
-                    <h4>Pollen Alerts</h4>
-                    <p>
-                        Alert by user when there are critical pollen level in
-                        the Air. Predicts levels based on weather, season and
-                        live satellite location data.
-                    </p>
-                </article>
-                <article id='health'>
-                    <img alt='Live Health Data' src={health} />
-                    <h4>Live Health Data</h4>
-                    <p>
-                        Provides location based outdoor Air quality health data
-                        for BREATH EASY
-                    </p>
-                </article>
-
-            </section> */}
 
                 <div class='row flex-container'>
                     <div className='col-8 col-sm-6 col-md-4'>
@@ -74,11 +54,11 @@ export default function Amp() {
                                 style={{ width: 200 }}
                             />
                             <h4 id='sid'>Pollen Alerts</h4>
-                            <p>
+                            <div>
                                 Alerts user when there are critical pollen level
                                 in the air, and predicts levels based on
                                 weather, season and live satellite location data
-                            </p>
+                            </div>
                         </article>
                     </div>
                     <div className='col-8 col-sm-6 col-md-4'>
@@ -90,11 +70,11 @@ export default function Amp() {
                                 style={{ width: 200 }}
                             />
                             <h4 id='sid'>Asthma Management</h4>
-                            <p>
+                            <div>
                                 Logs symptoms, tracks medicine usage, provides
                                 live doctor chat and digital Asthma community
                                 forum
-                            </p>
+                            </div>
                         </article>
                     </div>
                     <div className='col-8 col-sm-6 col-md-4'>
@@ -106,10 +86,10 @@ export default function Amp() {
                                 style={{ width: 200, height: 200 }}
                             />
                             <h4 id='sid'>Live Health Data</h4>
-                            <p>
+                            <div>
                                 Provides location based outdoor air quality
                                 health data for BREATHE EASY
-                            </p>
+                            </div>
                         </article>
                     </div>
                 </div>
