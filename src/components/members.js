@@ -2,8 +2,7 @@ export const members = [
     [
         {
             id: 1,
-            img:
-                "https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg",
+            img: "https://i.pravatar.cc/200?img=8",
             name: "Jacob Malana",
             description:
                 "Space Engineer — Business Management, Product Management",
@@ -11,15 +10,13 @@ export const members = [
 
         {
             id: 2,
-            img:
-                "https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg",
+            img: "https://i.pravatar.cc/200?img=9",
             name: "Victor Skladnev",
             description: "Algorithm specialist — Bio Tech Management",
         },
         {
             id: 3,
-            img:
-                "https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg",
+            img: "https://i.pravatar.cc/200?img=10",
             name: "John Eskrine",
             description: "Marketing Channel Management",
         },
@@ -27,8 +24,7 @@ export const members = [
     [
         {
             id: 4,
-            img:
-                "https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg",
+            img: "https://i.pravatar.cc/200?img=11",
             name: "William C Horton",
             description:
                 "Business Leader — Strategist Entrepreneurship/Innovation Commercialisation",

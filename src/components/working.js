@@ -18,6 +18,7 @@ export default function Working() {
                 <div class='col-11 col-sm-10 col-md-7'>
                     <div class='video'>
                         <iframe
+                            title='How Airli Works'
                             width='560'
                             height='315'
                             src='https://www.youtube.com/embed/NpEaa2P7qZI'
