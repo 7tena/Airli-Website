@@ -285,6 +285,11 @@ hr {
     max-width: 100vw;
 }
 
+.banner-scroll {
+    max-width: 100vw;
+    filter: brightness(50%);
+}
+
 .nav {
     background: transparent;
 }

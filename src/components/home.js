@@ -1,6 +1,6 @@
 import React from "react";
 import Ourteam from "./ourteam";
-import Banner from "../graphics/Child-With-Arms-in-the-Air.jpg";
+import Banner from "./Banner";
 import Amp from "./amp";
 import Working from "./working";
 import DownloadApp from "./DownloadApp";
@@ -8,12 +8,7 @@ import DownloadApp from "./DownloadApp";
 export default function Home() {
     return (
         <div>
-            <img
-                src={Banner}
-                alt='Airli'
-                className='banner'
-                draggable='false'
-            />
+            <Banner />
             <div className='container div-down align-top'></div>
             <Amp />
             <div className='container div-up'></div>
