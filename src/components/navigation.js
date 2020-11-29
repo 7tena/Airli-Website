@@ -101,8 +101,8 @@ function Navigation() {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href='/#download' draggable='false'>
-                            Download
+                        <NavLink href='/' draggable='false'>
+                            Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -113,6 +113,11 @@ function Navigation() {
                     <NavItem>
                         <NavLink href='/other' draggable='false'>
                             Other
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href='/#download' draggable='false' id="download">
+                            Download
                         </NavLink>
                     </NavItem>
                 </Nav>

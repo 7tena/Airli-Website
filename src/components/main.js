@@ -16,6 +16,7 @@ function Main() {
                 <Route exact path='/' component={Home}/> 
                 <Route path='/aboutus' component={AboutUs}/>
                 <Route path="/other" component={Businessplan}/> 
+                <Route path='*' component={Home} />
             </Switch>
             <Footer />
         </Router>
