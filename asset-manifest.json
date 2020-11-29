@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Airli-Website/static/css/main.cfc84869.chunk.css",
+    "main.js": "/Airli-Website/static/js/main.87d19c0f.chunk.js",
+    "main.js.map": "/Airli-Website/static/js/main.87d19c0f.chunk.js.map",
+    "runtime-main.js": "/Airli-Website/static/js/runtime-main.897919ee.js",
+    "runtime-main.js.map": "/Airli-Website/static/js/runtime-main.897919ee.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/Airli-Website/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.091b9073.chunk.js": "/Airli-Website/static/js/2.091b9073.chunk.js",
+    "static/js/2.091b9073.chunk.js.map": "/Airli-Website/static/js/2.091b9073.chunk.js.map",
+    "static/js/3.5cd9f3af.chunk.js": "/Airli-Website/static/js/3.5cd9f3af.chunk.js",
+    "static/js/3.5cd9f3af.chunk.js.map": "/Airli-Website/static/js/3.5cd9f3af.chunk.js.map",
+    "index.html": "/Airli-Website/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/Airli-Website/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.cfc84869.chunk.css.map": "/Airli-Website/static/css/main.cfc84869.chunk.css.map",
+    "static/js/2.091b9073.chunk.js.LICENSE.txt": "/Airli-Website/static/js/2.091b9073.chunk.js.LICENSE.txt",
+    "static/media/Child-With-Arms-in-the-Air.8317b7b2.jpg": "/Airli-Website/static/media/Child-With-Arms-in-the-Air.8317b7b2.jpg",
+    "static/media/Download-on-the-App-Store.8c4986ee.svg": "/Airli-Website/static/media/Download-on-the-App-Store.8c4986ee.svg",
+    "static/media/Google-Play-Store-badge.1d8f7bc8.svg": "/Airli-Website/static/media/Google-Play-Store-badge.1d8f7bc8.svg",
+    "static/media/airli-logo-black.5044675f.png": "/Airli-Website/static/media/airli-logo-black.5044675f.png",
+    "static/media/amp.787de581.svg": "/Airli-Website/static/media/amp.787de581.svg",
+    "static/media/App.css": "/Airli-Website/static/media/phones-with-airli.5420e6dc.png",
+    "static/media/inhaler.d3be140d.png": "/Airli-Website/static/media/inhaler.d3be140d.png",
+    "static/media/youtube.96f5310c.png": "/Airli-Website/static/media/youtube.96f5310c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.897919ee.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.091b9073.chunk.js",
+    "static/css/main.cfc84869.chunk.css",
+    "static/js/main.87d19c0f.chunk.js"
+  ]
+}
