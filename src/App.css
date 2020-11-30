@@ -264,15 +264,18 @@ hr {
 
 .banner {
     max-width: 100vw;
+    transition: filter 200ms ease-in-out;
 }
 
 .banner-scroll {
     max-width: 100vw;
     filter: brightness(50%);
+    transition: filter 200ms ease-in-out;
 }
 
 .nav {
     background: transparent;
+    transition: all 200ms ease-in-out;
 }
 
 .nav-active {
@@ -280,6 +283,7 @@ hr {
     background: white;
     color: black;
     box-shadow: 0px calc(0.06vw + 1px) calc(0.4vw + 4px) rgba(0, 0, 0, 0.25);
+    transition: all 200ms ease-in-out;
 }
 
 .nav-link {
@@ -323,11 +327,11 @@ hr {
 }
 
 #download {
-    border : 1px solid black;
+    border: 1px solid black;
     padding: 1px auto;
     border-radius: 15px;
 }
 
-#download:hover{
+#download:hover {
     border-color: #fdb813;
 }
