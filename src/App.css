@@ -335,3 +335,33 @@ hr {
 #download:hover {
     border-color: #fdb813;
 }
+
+@media only screen and (min-width: 768px) {
+    nav .mx-auto a {
+        color: white;
+        width: max-content;
+        margin: auto;
+    }
+
+    nav-active .mx-auto a {
+        width: max-content;
+        margin: auto;
+    }
+
+    nav .mx-auto #download {
+        border: 1px solid white;
+    }
+}
+
+.nav-expand {
+    opacity: 0.9;
+}
+
+ul.mx-auto {
+    width: 100%;
+}
+
+ul.mx-auto li {
+    flex: 1;
+    text-align: center;
+}

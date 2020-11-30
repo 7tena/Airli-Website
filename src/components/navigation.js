@@ -37,7 +37,7 @@ function Navigation() {
             viewBox='0 0 448 512'
         >
             <path
-                fill='black'
+                fill='white'
                 d='M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z'
             ></path>
         </svg>
@@ -89,6 +89,11 @@ function Navigation() {
             <Collapse isOpen={!collapsed} navbar>
                 <Nav className={scroll ? "ml-auto" : "mx-auto"} navbar>
                     <NavItem>
+                        <NavLink href='/' draggable='false'>
+                            Home
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink
                             href='https://www.orbitaustralia.com/'
                             id='orbitaustralia'
@@ -101,23 +106,22 @@ function Navigation() {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href='/' draggable='false'>
-                            Home
+                        <NavLink
+                            href='/#download'
+                            draggable='false'
+                            id='download'
+                        >
+                            Download
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href='/aboutus' draggable='false'>
-                            About Us
+                            <span>About Us</span>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href='/other' draggable='false'>
-                            Other
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href='/#download' draggable='false' id="download">
-                            Download
+                            <span>Other</span>
                         </NavLink>
                     </NavItem>
                 </Nav>
