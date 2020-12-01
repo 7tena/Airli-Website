@@ -365,3 +365,36 @@ ul.mx-auto li {
     flex: 1;
     text-align: center;
 }
+
+#banner {
+    position: relative;
+}
+
+#banner .whitelogo {
+    position: absolute;
+    top: 13vw;
+    left: 3vw;
+    width: calc(47vw - 0px);
+}
+
+#banner .text {
+    position: absolute;
+    left: calc(2vw + 10px);
+    top: calc(41vw - 8px);
+    width: calc(53vw - 10px);
+    color: white;
+    font-weight: 400;
+    font-size: calc(1.5vw + 5px);
+    transition: all 350ms ease-in-out;
+}
+
+#banner .text-scroll {
+    position: absolute;
+    left: 0;
+    top: calc(40.5vw - 8px);
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: calc(2vw + 5px);
+    transition: all 350ms ease-in-out;
+}
