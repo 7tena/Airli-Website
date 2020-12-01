@@ -9,20 +9,27 @@ import {
     NavbarToggler,
 } from "reactstrap";
 
-import blackLogo from "../graphics/airli-logo-black.png";
+import whiteLogo from "../graphics/airli-logo-white.png";
 
 function Navigation() {
     const [collapsed, setCollapsed] = useState(true);
     const [expand, setExpand] = useState("");
     const [toggleMenu, setMenu] = useState(false);
     const [scroll, setScroll] = useState(false);
+    const [scrollUp, setScrollUp] = useState(false);
 
     const changeBackground = () => {
-        if (window.scrollY >= 80) setScroll(true);
+        if (window.scrollY >= window.innerWidth / 15 - 20) setScroll(true);
         else setScroll(false);
     };
 
+    const changeLogoUp = () => {
+        if (window.scrollY >= window.innerWidth / 15 - 20) setScrollUp(true);
+        else setScrollUp(false);
+    };
+
     window.addEventListener("scroll", changeBackground);
+    window.addEventListener("scroll", changeLogoUp);
 
     const icon = !toggleMenu ? (
         <svg
@@ -62,10 +69,24 @@ function Navigation() {
 
     const brand = scroll ? (
         <NavbarBrand href='/' className='mr-auto' draggable='false'>
-            <img src={blackLogo} alt='Airli' width='100px' draggable='false' />
+            <img
+                src={whiteLogo}
+                alt='Airli'
+                width='100px'
+                draggable='false'
+                className={scrollUp ? `blacklogo-scroll` : `blacklogo`}
+            />
         </NavbarBrand>
     ) : (
-        <div></div>
+        <div>
+            <img
+                src={whiteLogo}
+                alt='Airli'
+                width='100px'
+                draggable='false'
+                className={scrollUp ? `whitelogo-scroll` : `whitelogo`}
+            />
+        </div>
     );
 
     const toggle = () => {
@@ -90,7 +111,7 @@ function Navigation() {
                 <Nav className={scroll ? "ml-auto" : "mx-auto"} navbar>
                     <NavItem>
                         <NavLink href='/' draggable='false'>
-                            Home
+                            <span>Home</span>
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -106,12 +127,8 @@ function Navigation() {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink
-                            href='/#download'
-                            draggable='false'
-                            id='download'
-                        >
-                            Download
+                        <NavLink href='#download' draggable='false'>
+                            <span>Download</span>
                         </NavLink>
                     </NavItem>
                     <NavItem>

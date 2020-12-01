@@ -5,12 +5,9 @@
 #orbitaustralia {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
+    font-size: 1.04rem;
     text-transform: uppercase;
-    padding: 11px 10px;
-}
-
-#orbitaustralia:hover {
-    color: #fdb813;
+    padding: 12px 10px;
 }
 
 .flex-container {
@@ -291,7 +288,7 @@ hr {
 }
 
 .nav-link:hover {
-    color: #fdb813;
+    color: #00acdc;
     cursor: pointer;
 }
 
@@ -327,13 +324,8 @@ hr {
 }
 
 #download {
-    border: 1px solid black;
-    padding: 1px auto;
-    border-radius: 15px;
-}
-
-#download:hover {
-    border-color: #fdb813;
+    pposition: absolute;
+    top: -75px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -341,15 +333,18 @@ hr {
         color: white;
         width: max-content;
         margin: auto;
+        padding: 10px;
+    }
+
+    nav .mx-auto a:hover {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 17px;
     }
 
     nav-active .mx-auto a {
         width: max-content;
         margin: auto;
-    }
-
-    nav .mx-auto #download {
-        border: 1px solid white;
     }
 }
 
@@ -370,11 +365,50 @@ ul.mx-auto li {
     position: relative;
 }
 
-#banner .whitelogo {
+.whitelogo {
     position: absolute;
     top: 13vw;
     left: 3vw;
     width: calc(47vw - 0px);
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+}
+
+.whitelogo-scroll {
+    position: absolute;
+    top: 18px;
+    left: 17px;
+    width: 100px;
+    filter: brightness(0);
+    transition: all 300ms ease-in-out;
+}
+
+.blacklogo {
+    position: absolute;
+    top: 13vw;
+    left: 3vw;
+    width: calc(47vw - 0px);
+    transition: all 300ms ease-in-out;
+}
+
+.blacklogo-scroll {
+    position: absolute;
+    top: 18px;
+    left: 17px;
+    width: 100px;
+    filter: brightness(0);
+    transition: all 300ms ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+    .blacklogo-scroll {
+        top: 10px;
+        left: 10px;
+    }
+
+    .nav-active svg {
+        filter: brightness(0);
+    }
 }
 
 #banner .text {
@@ -385,7 +419,7 @@ ul.mx-auto li {
     color: white;
     font-weight: 400;
     font-size: calc(1.5vw + 5px);
-    transition: all 350ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 
 #banner .text-scroll {
@@ -396,5 +430,5 @@ ul.mx-auto li {
     color: white;
     font-weight: 400;
     font-size: calc(2vw + 5px);
-    transition: all 350ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
