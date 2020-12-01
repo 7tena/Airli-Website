@@ -3,11 +3,7 @@
 }
 
 #orbitaustralia {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    font-size: 1.04rem;
     text-transform: uppercase;
-    padding: 12px 10px;
 }
 
 .flex-container {
@@ -16,7 +12,7 @@
     justify-content: center;
 }
 
-a aside {
+#orbitaustralia aside {
     display: inline;
     font-weight: 600;
 }
@@ -312,7 +308,7 @@ hr {
 }
 
 .container h3 {
-    margin-top: 3.5vw;
+    margin-top: 3vw;
 }
 
 #p-margin {
@@ -333,13 +329,14 @@ hr {
         color: white;
         width: max-content;
         margin: auto;
-        padding: 10px;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
 
     nav .mx-auto a:hover {
         color: white;
         background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 17px;
+        border-radius: 15px;
     }
 
     nav-active .mx-auto a {
@@ -425,7 +422,7 @@ ul.mx-auto li {
 #banner .text-scroll {
     position: absolute;
     left: 0;
-    top: calc(40.5vw - 8px);
+    top: calc(37vw - 8px);
     width: 100%;
     color: white;
     font-weight: 400;
