@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Airli-Website/static/css/main.7039a2db.chunk.css",
-    "main.js": "/Airli-Website/static/js/main.ac847aac.chunk.js",
-    "main.js.map": "/Airli-Website/static/js/main.ac847aac.chunk.js.map",
+    "main.js": "/Airli-Website/static/js/main.b8188189.chunk.js",
+    "main.js.map": "/Airli-Website/static/js/main.b8188189.chunk.js.map",
     "runtime-main.js": "/Airli-Website/static/js/runtime-main.897919ee.js",
     "runtime-main.js.map": "/Airli-Website/static/js/runtime-main.897919ee.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Airli-Website/static/css/2.1a02f21c.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.b3324405.chunk.js",
     "static/css/main.7039a2db.chunk.css",
-    "static/js/main.ac847aac.chunk.js"
+    "static/js/main.b8188189.chunk.js"
   ]
 }
