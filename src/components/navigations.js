@@ -3,6 +3,8 @@ import { Navbar, NavbarBrand, NavItem, NavLink, Nav, Collapse, NavbarToggler } f
 import { Link } from 'react-router-dom';
 import blacklogo from "../graphics/airli-logo-black.png";
 
+{/*Secondary Navbar*/}
+
 function NavigationS() {
     const [collapsed, setCollapsed] = useState(true);
     const [expand, setExpand] = useState("");
