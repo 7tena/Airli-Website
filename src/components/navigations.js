@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-    Navbar,
-    NavbarBrand,
-    NavItem,
-    NavLink,
-    Nav,
-    Collapse,
-    NavbarToggler,
-} from "reactstrap";
+import { Navbar, NavbarBrand, NavItem, NavLink, Nav, Collapse, NavbarToggler } from "reactstrap";
 import { Link } from 'react-router-dom';
 import blacklogo from "../graphics/airli-logo-black.png";
 
