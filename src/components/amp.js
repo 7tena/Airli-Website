@@ -13,6 +13,8 @@ export default function Amp() {
                         Asthma <br></br>Management <br />
                         Platform
                     </h3>
+                    <br/>
+                    <p >ASTHMA CARE THROUGH MOBILE APPLICATION</p>
                     <p>
                         Providing real time contextualized location based Air
                         Quality Health Data everyday, everywhere, and for

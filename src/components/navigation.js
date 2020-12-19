@@ -115,18 +115,7 @@ function Navigation() {
                             <span>Home</span>
                         </NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink
-                            href='https://www.orbitaustralia.com/'
-                            id='orbitaustralia'
-                            target='_blank'
-                            rel='noreferrer'
-                            draggable='false'
-                        >
-                            <aside>Orbit</aside>
-                            <span>Australia</span>
-                        </NavLink>
-                    </NavItem>
+                    
                     <NavItem>
                         <NavLink href='#download' draggable='false'>
                             <span>Download</span>

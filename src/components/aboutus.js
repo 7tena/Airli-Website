@@ -5,7 +5,7 @@ function AboutUs() {
         <div>
             <div className='container'>
                 <h3>About Us</h3>
-                <p>
+                <p class="text-justify">
                     Jacob decided to establish a real time air checks to make
                     the invisible to visible and started the company Airli as
                     part of Orbit Australia. Today, all of our environmental
@@ -16,7 +16,7 @@ function AboutUs() {
                     of air and checks for air quality as polluted or not in a
                     location wise of the day.
                 </p>
-                <p>
+                <p class="text-justify">
                     At Orbit Australia, our reputation for value and quality
                     means everything to us. We have built our business one
                     satisfied client at a time, and we plan to continue. Orbit
@@ -26,7 +26,7 @@ function AboutUs() {
                     and domain specific subject matter experts positioned across
                     the Australia, India and around the world.
                 </p>
-                <p>
+                <p class="text-justify">
                     Although our clients rely on us to help them achieve peak
                     performance across a broad range of enterprise space
                     packages, development platforms, and data sources, Orbit
