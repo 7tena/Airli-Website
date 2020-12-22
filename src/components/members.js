@@ -1,8 +1,16 @@
+import jacob from '../graphics/team/jacob.png';
+import victor from '../graphics/team/Victor Skladnev.jpg';
+import john from '../graphics/team/eskrine.png';
+import will from '../graphics/team/WilliamHorton.jpeg';
+import san from '../graphics/team/san.jpeg';
+import joe from '../graphics/team/joe.jpg';
+import sue from '../graphics/team/sue.jpg';
+
 export const members = [
     [
         {
             id: 1,
-            img: "https://i.pravatar.cc/200?img=8",
+            img: jacob,
             name: "Jacob Malana",
             description:
                 "Space Engineer — Business Management, Product Management",
@@ -10,13 +18,13 @@ export const members = [
 
         {
             id: 2,
-            img: "https://i.pravatar.cc/200?img=9",
+            img: victor,
             name: "Victor Skladnev",
             description: "Algorithm specialist — Bio Tech Management",
         },
         {
             id: 3,
-            img: "https://i.pravatar.cc/200?img=10",
+            img: john,
             name: "John Eskrine",
             description: "Marketing Channel Management",
         },
@@ -24,26 +32,26 @@ export const members = [
     [
         {
             id: 4,
-            img: "https://i.pravatar.cc/200?img=11",
+            img: will,
             name: "William C Horton",
             description:
                 "Business Leader — Strategist Entrepreneurship/Innovation Commercialisation",
         },
         {
             id: 5,
-            img: "https://i.pravatar.cc/200?img=5",
+            img: san,
             name: "Dr. San Murugeshan",
             description: "Senior Fellow US NRC NASA IT-Specialist",
         },
         {
             id: 6,
-            img: "https://i.pravatar.cc/200?img=6",
+            img: sue,
             name: "Sue Cyriac",
             description: "Company Executive",
         },
         {
             id: 7,
-            img: "https://i.pravatar.cc/200?img=7",
+            img: joe,
             name: "Jo Joseph",
             description: "Project Manager",
         },

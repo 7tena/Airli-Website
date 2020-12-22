@@ -443,3 +443,7 @@ ul.mx-auto li {
     font-size: calc(2vw + 5px);
     transition: all 400ms ease-out;
 }
+
+.small-quote strong{
+    white-space: pre-wrap;
+}
