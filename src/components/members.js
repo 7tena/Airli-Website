@@ -3,7 +3,7 @@ import victor from '../graphics/team/Victor Skladnev.jpg';
 import john from '../graphics/team/eskrine.png';
 import will from '../graphics/team/WilliamHorton.jpeg';
 import san from '../graphics/team/san.jpeg';
-import joe from '../graphics/team/joe.jpg';
+import joe from '../graphics/team/joe.jpeg';
 import sue from '../graphics/team/sue.jpg';
 
 export const members = [
