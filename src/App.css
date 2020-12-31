@@ -250,6 +250,7 @@ h5#memberdesc {
     font-size: calc(12px + 0.1vw);
     color: #757575;
     text-decoration: none;
+    padding: 2px;
 }
 
 hr {
