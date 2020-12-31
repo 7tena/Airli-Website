@@ -10,8 +10,7 @@ export default function Amp() {
             <div class='row'>
                 <div class='col-8 amp'>
                     <h3>
-                        Asthma <br></br>Management <br />
-                        Platform
+                        Asthma Management Platform
                     </h3>
                     <br/>
                     <p>

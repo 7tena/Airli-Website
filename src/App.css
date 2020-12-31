@@ -448,4 +448,5 @@ ul.mx-auto li {
 
 .small-quote strong {
     white-space: pre-wrap;
+    font-weight: bold;
 }
