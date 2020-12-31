@@ -249,6 +249,7 @@ h5#memberdesc {
     font-weight: 300;
     font-size: calc(12px + 0.1vw);
     color: #757575;
+    text-decoration: none;
 }
 
 hr {
@@ -449,4 +450,9 @@ ul.mx-auto li {
 .small-quote strong {
     white-space: pre-wrap;
     font-weight: bold;
+}
+
+#social:hover path{
+    fill: #00acdc;
+    height: 50px;
 }

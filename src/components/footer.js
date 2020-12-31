@@ -5,15 +5,16 @@ export default function Footer() {
     return (
         <div>
             <footer class='container'>
-                <p id='footnote'>
-                    * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus bibendum bibendum elit velit.
-                </p>
-                <p id='footnote'>
-                    <a href={privacy} target="blank">Privacy Policy</a>
-                </p>
-                <hr />
-                <div class='row foot'>&copy;2020 airli</div>
+                <div className="row justify-content-center align-content-center">
+                    <p>
+                        <a href={privacy} target="blank" id="footnote">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class='row justify-content-center align-content-center'>
+                    <p id="footnote">
+                        &copy;2020 Airli
+                    </p>
+                </div>
             </footer>
         </div>
     );

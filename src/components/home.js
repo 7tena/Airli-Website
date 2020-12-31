@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Amp from "./amp";
 import Working from "./working";
 import DownloadApp from "./DownloadApp";
+import Connect from "./connect";
 
 export default function Home() {
     return (
@@ -17,7 +18,9 @@ export default function Home() {
             <Ourteam />
             <div className='container div-up'></div>
             <DownloadApp />
-            <div className='container div-down align-top'></div>
+            <div className="container div-down"></div>
+            <Connect />
+            <div className='container div-down align-center'></div>
         </div>
     );
 }
