@@ -280,7 +280,7 @@ hr {
 }
 
 .navbar {
-    min-height: 60px;
+    min-height: 84px;
 }
 
 .nav-link {
@@ -384,7 +384,7 @@ ul.mx-auto li {
     position: absolute;
     top: 13vw;
     left: 3vw;
-    width: calc(47vw - 0px);
+    width: 40vw;
     transition: all 400ms ease-out;
     z-index: -1;
 }
@@ -394,7 +394,6 @@ ul.mx-auto li {
     top: 18px;
     left: 17px;
     width: 100px;
-    filter: brightness(0);
     transition: all 400ms ease-out;
 }
 
@@ -402,7 +401,7 @@ ul.mx-auto li {
     position: absolute;
     top: 13vw;
     left: 3vw;
-    width: calc(47vw - 0px);
+    width: 40vw;
     transition: all 400ms ease-out;
 }
 
@@ -411,7 +410,6 @@ ul.mx-auto li {
     top: 18px;
     left: 17px;
     width: 100px;
-    filter: brightness(0);
     transition: all 400ms ease-out;
 }
 

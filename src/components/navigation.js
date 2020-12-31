@@ -10,7 +10,7 @@ import {
 } from "reactstrap";
 import { Link } from 'react-router-dom';
 
-import whiteLogo from "../graphics/airli-logo-white.png";
+import whiteLogo from "../graphics/airli-logo-orange.png";
 
 function Navigation() {
     const [collapsed, setCollapsed] = useState(true);
@@ -73,6 +73,7 @@ function Navigation() {
             <img
                 src={whiteLogo}
                 alt='Airli'
+                color='auto'
                 width='100px'
                 draggable='false'
                 className={scrollUp ? `blacklogo-scroll` : `blacklogo`}
@@ -83,7 +84,6 @@ function Navigation() {
             <img
                 src={whiteLogo}
                 alt='Airli'
-                width='100px'
                 draggable='false'
                 className={scrollUp ? `whitelogo-scroll` : `whitelogo`}
             />
