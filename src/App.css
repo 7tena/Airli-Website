@@ -457,3 +457,42 @@ ul.mx-auto li {
     fill: #00acdc;
     height: 50px;
 }
+
+.form-control{
+    text-align: left;
+}
+
+.form-group{
+    margin: 1rem 0rem;
+}
+
+textarea.form-control{
+    height: 250px !important;
+}
+
+#message-button{
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background: #00acdc;
+}
+
+#map{
+    height: 30vw;
+    width: 30vw;
+}
+
+@media(max-width: 768px){
+    #map{
+        height: 90vw ;
+        width: 90vw;
+    }
+}
+
+@media(max-width: 800px)
+{
+    #map{
+        height: 500px;
+        width: 350px;
+    }
+}

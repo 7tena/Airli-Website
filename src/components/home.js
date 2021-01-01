@@ -5,6 +5,7 @@ import Amp from "./amp";
 import Working from "./working";
 import DownloadApp from "./DownloadApp";
 import Connect from "./connect";
+import ReachUs from "./reachus";
 
 export default function Home() {
     return (
@@ -20,6 +21,8 @@ export default function Home() {
             <DownloadApp />
             <div className="container div-down"></div>
             <Connect />
+            <div className="container div-up"></div>
+            <ReachUs />
             <div className='container div-down align-center'></div>
         </div>
     );
