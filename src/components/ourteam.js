@@ -10,7 +10,7 @@ export default function Ourteam() {
                 {members.map((member) => {
                     let len = member.length;
                     return (
-                        <div className='flex-container'>
+                        <div className='flex-container' key={member[0].id}>
                             {member.map((mem) => {
                                 return (
                                     <Member

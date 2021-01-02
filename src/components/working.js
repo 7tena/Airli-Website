@@ -24,7 +24,7 @@ export default function Working() {
                             frameBorder='0'
                             className="embed-responsive-item"
                             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                            allowfullscreen='allowfullscreen'
+                            allowFullScreen='allowfullscreen'
                         ></iframe>
                     </div>
                 </div>

@@ -7,8 +7,8 @@ import amp from "../graphics/amp.svg";
 export default function Amp() {
     return (
         <div className='container'>
-            <div class='row'>
-                <div class='col-8 amp'>
+            <div className='row'>
+                <div className='col-8 amp'>
                     <h3>
                         Asthma Management Platform
                     </h3>
@@ -28,7 +28,7 @@ export default function Amp() {
                         asthma community forum.
                     </p>
                 </div>
-                <div class='col-4 amp'>
+                <div className='col-4 amp'>
                     <img
                         src={amp}
                         alt='Asthma Management Platform'
@@ -45,7 +45,7 @@ export default function Amp() {
                     Allergy and Asthma
                 </p>
 
-                <div class='row flex-container'>
+                <div className='row flex-container'>
                     <div className='col-8 col-sm-6 col-md-4'>
                         <article>
                             <img
