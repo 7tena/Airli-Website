@@ -386,7 +386,7 @@ ul.mx-auto li {
     position: absolute;
     top: 13vw;
     left: 3vw;
-    width: 40vw;
+    width: 35vw;
     transition: all 400ms ease-out;
     z-index: -1;
 }
@@ -403,7 +403,7 @@ ul.mx-auto li {
     position: absolute;
     top: 13vw;
     left: 3vw;
-    width: 40vw;
+    width: 35vw;
     transition: all 400ms ease-out;
 }
 
