@@ -10,7 +10,7 @@ const DownloadApp = () => {
             <section className='flex-container'>
                 <article id='applink'>
                     <div id='gap2'></div>
-                    <h4 id='applinktext'>Airli App Dwonload</h4>
+                    <h4 id='applinktext'>Try Airli </h4>
                     <p id='applinkdescription'>
                         For real time contextualised location based air quality
                         health data on Android and iOS.
