@@ -384,9 +384,9 @@ ul.mx-auto li {
 
 .whitelogo {
     position: absolute;
-    top: 13vw;
+    top: 9vw;
     left: 3vw;
-    width: 25vw;
+    width: 15vw;
     transition: all 400ms ease-out;
     z-index: -1;
 }
