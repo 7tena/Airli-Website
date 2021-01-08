@@ -14,7 +14,7 @@ export default function Amp() {
                     </h3>
                     <br/>
                     <p>
-                        <em className="small-quote"><strong>{"\nASTHMA CARE THROUGH MOBILE APPLICATION\n\n"}</strong></em>
+                        <em className="small-quote"></em>
                         Providing real time contextualized location based Air
                         Quality Health Data everyday, everywhere, and for
                         everyone. Satellite data is transmitted to

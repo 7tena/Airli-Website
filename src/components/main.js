@@ -13,12 +13,11 @@ function Main() {
        <Router>
            <Switch>
                 <Route exact path='/' component={NavigationM} />
-                <Route path='/aboutus' component={NavigationS} />
-                <Route path='/other' component={NavigationS} />
+                <Route path='/other' component={Businessplan} /> 
            </Switch>
             <Switch>
                 <Route exact path='/' component={Home}/> 
-                <Route path='/aboutus' component={AboutUs}/>
+                {/* <Route path='/aboutus' component={AboutUs}/> */}
                 <Route path="/other" component={Businessplan}/> 
                 <Route path='*' component={Home} />
             </Switch>
