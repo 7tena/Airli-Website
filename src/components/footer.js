@@ -6,13 +6,13 @@ export default function Footer() {
         <div>
             <footer className='container'>
                 <div className='row justify-content-center align-content-center' id="footnote">
-                4 Cornwallis St, Eveleigh NSW 2015, Australia
+                100 George street parramatta nsw 2150
                 </div>
                 <div className='row justify-content-center align-content-center'>
                     <a id="footnote"href="mailto:connect@airli.co">connect@airli.co</a>
                 </div>
                 <div className='row justify-content-center align-content-center'>
-                    <a id="footnote" href="tel: +61292094022">+61 2 9209 4022</a>
+                    <a id="footnote" href="tel: +61280054864">+61 2 8005 4864</a>
                 </div >
                 <div className='row justify-content-center align-content-center' id="footnote">
                         &copy;2020 Airli
