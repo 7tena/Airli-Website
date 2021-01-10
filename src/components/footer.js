@@ -6,7 +6,7 @@ export default function Footer() {
         <div>
             <footer className='container'>
                 <div className='row justify-content-center align-content-center' id="footnote">
-                100 George street parramatta nsw 2150
+                100 George street Parramatta NSW 2150
                 </div>
                 <div className='row justify-content-center align-content-center'>
                     <a id="footnote"href="mailto:connect@airli.co">connect@airli.co</a>
