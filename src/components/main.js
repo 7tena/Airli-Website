@@ -4,7 +4,6 @@ import NavigationS from "./navigations";
 import Footer from "./footer";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from "./home";
-import AboutUs from './aboutus';
 import Businessplan from './businessplan';
 
 function Main() {
@@ -13,7 +12,7 @@ function Main() {
        <Router>
            <Switch>
                 <Route exact path='/' component={NavigationM} />
-                <Route path='/other' component={Businessplan} /> 
+                <Route exact path='/other' component={NavigationS} />
            </Switch>
             <Switch>
                 <Route exact path='/' component={Home}/> 

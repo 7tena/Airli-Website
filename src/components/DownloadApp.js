@@ -18,7 +18,7 @@ const DownloadApp = () => {
                     <div id='gap1'></div>
                     <div id='badge'>
                         <a
-                            href='https://play.google.com/'
+                            href='https://drive.google.com/drive/folders/1rKTHDBg5jfvkk0kZH7raPiz2GZMIMwJL?usp=sharing'
                             alt='Get it on Google Play'
                             target='_blank'
                             rel='noreferrer'

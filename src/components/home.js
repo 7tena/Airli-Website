@@ -18,7 +18,7 @@ export default function Home() {
             <div className='container div-down'></div>
             <Ourteam />
             {/* <div className='container div-up'></div> */}
-            {/* <DownloadApp /> */}
+            <DownloadApp />
             <div className="container div-down"></div>
             <Connect />
             <div className="container div-up"></div>

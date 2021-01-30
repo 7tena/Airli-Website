@@ -76,17 +76,6 @@ function NavigationS() {
                             <span>Home</span>
                         </NavLink>
                     </NavItem>
-                    
-                    <NavItem>
-                        <NavLink href='#download' draggable='false'>
-                            <span>Download</span>
-                        </NavLink>
-                    </NavItem>
-                    <NavItem >
-                        <Link className="nav-link" to='/aboutus' draggable='false'>
-                            About Us
-                        </Link>
-                    </NavItem>
                     <NavItem>
                         <Link className="nav-link" to='/other' draggable='false'>
                             Other
