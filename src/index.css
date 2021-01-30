@@ -25,3 +25,11 @@ code {
 div {
     overflow-x: hidden;
 }
+
+.blue-text {
+    color: #00acdc !important;
+}
+
+.orange-text {
+    color: #fdb813 !important;
+}

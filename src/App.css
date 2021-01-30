@@ -70,6 +70,10 @@ h4 {
     text-align: center;
 }
 
+.check {
+    list-style: "\2713\00A0";
+}
+
 #pollen {
     width: 50%;
 }
@@ -412,7 +416,7 @@ ul.mx-auto li {
     top: 18px;
     left: 17px;
     width: 100px;
-    transition: all 400ms ease-out;
+    /* transition: all 400ms ease-out; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -453,53 +457,52 @@ ul.mx-auto li {
     font-weight: bold;
 }
 
-#social:hover path{
+#social:hover path {
     fill: #00acdc;
     height: 50px;
 }
 
-.form-control{
+.form-control {
     text-align: left;
 }
 
-.form-group{
+.form-group {
     margin: 1rem 0rem;
 }
 
-textarea.form-control{
+textarea.form-control {
     height: 250px !important;
 }
 
-#message-button{
+#message-button {
     border-radius: 5px;
     border: none;
     color: #ffffff;
     background: #00acdc;
 }
 
-#map{
+#map {
     height: 30vw;
     width: 30vw;
 }
 
-@media(max-width: 768px){
-    #map{
-        height: 90vw ;
+@media (max-width: 768px) {
+    #map {
+        height: 90vw;
         width: 90vw;
     }
 }
 
-@media(max-width: 800px)
-{
-    #map{
+@media (max-width: 800px) {
+    #map {
         height: 500px;
         width: 350px;
     }
 }
 
-.sent-button{
+.sent-button {
     border-radius: 5px;
     border: none;
     color: #ffffff;
-    background:#28a745;
+    background: #28a745;
 }
