@@ -17,8 +17,8 @@ export default function Amp() {
                         <em className="small-quote"></em>
                         Providing real time contextualized location based Air
                         Quality Health Data everyday, everywhere, and for
-                        everyone. Satellite data is transmitted to
-                        servers/repositories in cloud — the data includes
+                        everyone. Data is transmitted to
+                        servers in cloud — the data includes
                         Vegetation Index, Weather, Wind, Rainfall, Climate
                         patterns, Pollution, CO
                         <sub>2</sub> emissions, Celestial body positions,
