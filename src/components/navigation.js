@@ -115,6 +115,11 @@ function Navigation() {
                             <span>Home</span>
                         </NavLink>
                     </NavItem>
+                    <NavItem >
+                        <Link className="nav-link" to='/aboutus' draggable='false'>
+                            About Us
+                        </Link>
+                    </NavItem>
                     <NavItem>
                         <Link className="nav-link" to='/other' draggable='false'>
                             Other
@@ -126,12 +131,7 @@ function Navigation() {
                             <span>Download</span>
                         </NavLink>
                     </NavItem>
-                    <NavItem >
-                        <Link className="nav-link" to='/aboutus' draggable='false'>
-                            About Us
-                        </Link>
-                    </NavItem> */}
-                    
+                    */}
                 </Nav>
             </Collapse>
         </Navbar>
